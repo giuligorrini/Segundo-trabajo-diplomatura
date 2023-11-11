@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="principal.css">
+    <script src="https://kit.fontawesome.com/bf0c75d29d.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Libre+Baskerville:ital@1&family=Montserrat+Alternates:ital,wght@1,300;1,700&family=Nunito:wght@400;800&display=swap');
+      </style>
+    <title>Trabajo Practico Maquetacion</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./image/logo.jpg" alt="logo">
+        </div>
+       
+        <div class="navbar">
+            <ul class="nav-links">
+            <a href="index.html"> Principal</a></li>
+                <li><a href="nosotros.html"> Nosotros</a></li>
+                <li><a href="galeria.html"> Galería</a></li>
+                <li> <a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+         <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+         <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+
+            <div class="overlay-content">
+                <a href="index.html"> Principal</a>
+                <a href="nosotros.html"> Nosotros</a>
+                <a href="galeria.html"> Galería</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+
+         </div>
+    </header>
+    <main>
+        <section class="sectionPrincipal">
+            <div class="image-container">
+                <img src="./image/fondo principal.jpg" alt="fondo principal">
+            </div>
+            <div class="welcome-box">
+                <h2>Bienvenidos a La casita
+                    del Jazmin </h2>
+                <p class="subtittle">
+                    Brindamos un espacio de crianza y educación para la primera infancia.
+                </p>
+                <p class="subtittle2">
+                Asumimos el compromiso de generar un espacio de crianza,aprendizaje,contención y crecimiento
+                desde el amor,la responsabilidad,la sensibilidad,la escucha,el diálogo y la participación familiar.
+                Entendemos la crianza como un proceso de enriquecimiento y desarrollo que tiene lugar en los primeros años de la vida de un niño.
+                Nuestra propuesta es en sí misma objeto de reflexión y estudio en permamente perfeccionamiento para que las acciones que se desplieguen en el proceso
+                de enseñanza-aprendizaje,sean pensadas,anticipadas y seleccionadas con criterios que optimizan intencionalmente la modalidad de crizanza.
+
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> Diseñado por Giulia Gorrini</p>
+    </footer>
+
+    <script type="text/javascript" src="nav.js"></script>
+</body>
+</html>

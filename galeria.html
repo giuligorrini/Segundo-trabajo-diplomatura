@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="galeria.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./image/logo.jpg" alt="logo">
+        </div>
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html"> Principal</a></li>
+                <li><a href="nosotros.html"> Nosotros</a></li>
+                <li><a href="galeria.html"> Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+         <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+         <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+
+            <div class="overlay-content">
+                <a href="index.html"> Principal</a>
+                <a href="nosotros.html"> Nosotros</a>
+                <a href="galeria.html"> Galería</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+
+
+
+
+    </header>
+    <h1> Galeria de fotos</h1>
+    <section class="galeria-container">
+      
+        <div class="galeria">
+            <div class="foto">
+                <img src="./image/frente-jardin.jpg" alt="">
+            </div>
+            <div class="pie">
+                <p>Frente del Jardin</p>
+            </div>
+        </div>
+        <div class="galeria">
+            <div class="foto">
+                <img src="./image/frente-jardin2.jpg" alt="">
+            </div>
+            <div class="pie">
+                <p>Frente del Jardin</p>
+            </div>
+        </div>
+        <div class="galeria">
+            <div class="foto">
+                <img src="./image/sala-girasoles.jpg" alt="">
+            </div>
+            <div class="pie">
+                <p>Sala Girasoles</p>
+            </div>
+        </div>
+        <div class="galeria">
+            <div class="foto">
+                <img src="./image/sala-zoom.jpg" alt="">
+            </div>
+            <div class="pie">
+                <p>Sala Jazmines</p>
+            </div>
+        </div>
+        <div class="galeria">
+            <div class="foto">
+                <img src="./image/sala-zoom2.jpg" alt="">
+            </div>
+            <div class="pie">
+                <p>Sala Pimpollos</p>
+            </div>
+        </div>
+        <div class="galeria">
+            <div class="foto">
+                <img src="./image/patios.jpg" alt="">
+            </div>
+            <div class="pie">
+                <p>Patio</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p> Diseñado por Giulia Gorrini</p>
+</footer>
+<script type="text/javascript" src="nav.js"></script>
+</body>
+</html>

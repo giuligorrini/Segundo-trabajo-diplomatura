@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <script src="https://kit.fontawesome.com/bf0c75d29d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./image/logo.jpg" alt="logo">
+        </div>
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html"> Principal</a></li>
+                <li><a href="nosotros.html"> Nosotros</a></li>
+                <li><a href="galeria.html"> Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+         <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+         <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+
+            <div class="overlay-content">
+                <a href="index.html"> Principal</a>
+                <a href="nosotros.html"> Nosotros</a>
+                <a href="galeria.html"> Galería</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+
+
+
+
+    </header>
+    <div class="container">
+        <div class="box-info">
+            <h1>CONTÁCTATE CON NOSOTROS</h1>
+            <div class="data">
+                <p class="phone"><i class="fa-solid fa-phone" style="color:  #1be805;;"></i>1156640086</p>
+                <p class="email"><i class="fa-solid fa-envelope" style="color: #1be805;;"></i>lacasitadeljazmin@cuadernorojo.com</p>
+                <p class="ubicacion"><i class="fa-solid fa-location-dot" style="color:  #1be805;"></i>Dorrego 3461,Santos Lugares</p>
+            </div>
+        </div>
+        <div class="links">
+            <a href="#"><i class="fa-brands fa-facebook" style="color:  #1be805;"></i></a>
+            <a href="https://www.instagram.com/lacasitadeljazmin/"><i class="fa-brands fa-instagram" style="color: #1be805;;"></i></a>
+        </div>
+
+        <section class="formulario">
+            <form>
+                <h1>Solicite una entrevista</h1>
+                <div class="input-box">
+                    
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Ingrese su nombre" required>
+        
+                    <label for="apellido">Apellido</label>
+                    <input type="text" placeholder="Ingrese su apellido" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su email" required>
+        
+                    <label for="nacimiento">Ingrese fecha de nacimiento de su hijo/a</label>
+                    <input type="date" name="nacimiento" id="nacimiento" required>
+        
+                    <label for="telefono">Telefono</label>
+                    <input type="phone" name="telefono" placeholder="Ingrese su telefono" required>
+
+                    <div class="radioContainer">
+                        <h3>Seleccione el género de su hijo/a:</h3>
+        
+                        <input type="radio" name="gender" id="masculino" value="masculino" required>
+                        <label for=" masculino">Masculino</label>
+        
+                        <input type="radio" name="gender" id="femenino" value="femenino" required>
+                        <label for="femenino">Femenino</label>
+        
+        
+                    </div>
+
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                    <input class="btnc" type="submit" value="Enviar">
+                    <button class="btnc-borrar" type="reset">Borrar</button>
+                    </form>
+                </div>
+                
+        </section>
+<script type="text/javascript" src="nav.js"> </script>
+</body>
+
+</html>

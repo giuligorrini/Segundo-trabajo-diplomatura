@@ -1,0 +1,93 @@
+@import url(general.css);
+
+
+.box-info{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-align: center;
+}
+.links{
+    text-align: center;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    letter-spacing: 5px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+form{
+    padding: 50px 55px;
+    box-shadow:  0 0 20px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input,textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #edfff0;
+    border: 2px solid #edfff0;
+    color: #283629;
+    outline: none;
+}
+
+input::placeholder,textarea::placeholder{
+    color: #b5cab6;
+}
+
+.form-txt{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.btnc,.btnc-borrar{
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: #1be805;
+    box-shadow: 0 0 20px rgba(25,254,0,0.4);
+    cursor: pointer;
+    height: 52px;
+}
+
+.btnc:hover{
+    background-color:#1be805;
+
+}
+
+@media(min-width:320px){
+    body{
+        display: block;
+    }
+    h1{
+        letter-spacing: normal;
+    }
+}
+

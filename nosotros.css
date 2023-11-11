@@ -1,0 +1,158 @@
+@import url(./general.css);
+.history{
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    color: black;
+    width: 90%;
+    margin: 20px auto;
+}
+.box1{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #1be805;
+    color:white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    
+}
+.box2{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color:#1be805;
+    color: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.box3{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color:#1be805;
+    color: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.box4{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #1be805;
+    color: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+h2{
+    color: blue;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+} 
+
+.historia:hover{
+    transform: scale(1.1);
+    transition: 3s;
+    cursor: pointer;
+}
+body{
+   background-color:  #95d3f0;
+}
+
+.container{
+    color: #1be805;
+}
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 100%;
+
+}
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.box1:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.box2:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.box3:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.box4:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+@media(min-width:768px){
+    .card,.contenido p{
+        font-size: 15px;
+       
+    }
+
+}
+@media(min-width:320px){
+    .box1,.box2,.box3,.box4{
+        width: 85%;
+        display: flex;
+        align-items: center;
+    }
+
+    .container{
+        display: block;
+    }
+    .text1,.text2,.text3,.text4{
+        font-size: 14px;
+    }
+    .card{
+        width: 85%;
+    }
+}
+@media(min-width:1000px){
+    .container{
+        display: flex;
+        width: 100%;
+    }
+
+    .box1,.box2,.box3,.box4{
+        width: 100%;
+        height: 80px;
+
+    }
+}
